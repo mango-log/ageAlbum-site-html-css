@@ -232,6 +232,9 @@ section.dark-section {
   #title .container-fluid {
     padding: 0 20px;
   }
+  .nav-link {
+    font-size: 2.4rem;
+  }
 
   .navbar-brand, .navbar-toggler {
     margin: 0 15px;
@@ -246,9 +249,14 @@ section.dark-section {
     font-size: 3rem;
   }
 
-  .btn-download, .testimonials-h2, .plan-title {
+  .testimonials-h2, .plan-title {
     font-size: 3rem;
     line-height: 1.2;
+  }
+
+  .btn-download {
+    font-size: 2.3rem;
+    padding: 2%;
   }
 
   #title {
