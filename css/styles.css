@@ -38,6 +38,10 @@ section.dark-section {
   font-weight: 500;
 }
 
+.navbar-toggler {
+  padding: 3%;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 0.9rem;
@@ -213,39 +217,65 @@ section.dark-section {
 /*********************** Media Queries ***********************/
 /*************************************************************/
 @media (max-width: 1000px) {
-  #title {
-    text-align: center;
+
+
+  .container-fluid {
+    padding: 15% 10%;
   }
+
+  p {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+
   #title .container-fluid {
-    padding: 0;
+    padding: 0 20px;
   }
 
   .navbar-brand, .navbar-toggler {
     margin: 0 15px;
   }
 
-  .title-h1 {
-    font-size: 2.5rem;
-
+  .brand-ico {
+    font-size: 4rem;
   }
+
+
+  .title-h1,  .features-h3, em, .card-header, .card-title, .card-item, .cta-h3, .sns-icon  {
+    font-size: 3rem;
+  }
+
+  .btn-download, .testimonials-h2, .plan-title {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+
   .title-right {
     height: auto;
-    padding-bottom: 100px;
+    padding: 200px 0;
   }
 
   .main-image-rotate25 {
-    width: 70%;
+    width: 60%;
     margin: auto;
     transform: rotate(0deg);
     position: static;
   }
 
-  .testimonials-h2 {
-    font-size: 1.3rem;
+
+  .features-icon {
+    font-size: 5rem;
   }
 
-  .cta-h3 {
-    font-size: 1rem;
+  #btn-subscription {
+    margin: 30px auto 20px;
+    font-size: 2rem;
   }
 
 }
